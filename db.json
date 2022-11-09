@@ -1,0 +1,44 @@
+{
+  "signup": [
+    {
+      "fname": "Prayag",
+      "lname": "Gharat",
+      "email": "prayag@gmail.com",
+      "phone": "7040100100",
+      "password": "asdfg",
+      "id": 1
+    },
+    {
+      "fname": "Abhi",
+      "lname": "Patil",
+      "email": "abhi@gmail.com",
+      "phone": "7141200200",
+      "password": "asdfg",
+      "id": 2
+    },
+    {
+      "fname": "Abhishek",
+      "lname": "Patil",
+      "email": "abhi@gmail.com",
+      "phone": "7007005050",
+      "password": "asdfg",
+      "id": 3
+    },
+    {
+      "fname": "Abhijeet",
+      "lname": "Patil",
+      "email": "abhi@gmail.com",
+      "phone": "9999900000",
+      "password": "asdfg",
+      "id": 4
+    },
+    {
+      "fname": "Amit",
+      "lname": "Patil",
+      "email": "amit@gmail.com",
+      "phone": "9999900000",
+      "password": "asdfg",
+      "id": 5
+    }
+  ]
+}
