@@ -1,0 +1,46 @@
+<div [formGroup]="form" class="row col-md-5 col-md-offset-3">
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+            <h4>Register</h4>
+        </div>
+        <div class="panel panel-body">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name..." name="name" formControlName="name">
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter your email..." name="email" formControlName="email">
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone number:</label>
+        <input type="text" class="form-control" id="phone" placeholder="Enter your phone number..." name="phone" formControlName="phone">
+    </div>
+    <div class="form-group">
+        <label for="age">Enter your age:</label>
+        <input type="text" class="form-control" id="age" placeholder="Enter your age..." name="age" formControlName="age">
+    </div>
+    <div class="form-group">
+        <label for="country">Enter your country:</label>
+        <input type="text" class="form-control" id="country" placeholder="Enter your country..." name="country" formControlName="country">
+    </div>
+    <div class="form-group">
+        <label for="state">Enter your state:</label>
+        <input type="text" class="form-control" id="state" placeholder="Enter your state..." name="state" formControlName="state">
+    </div>
+    <div class="form-group">
+        <label for="city">Enter your city:</label>
+        <input type="text" class="form-control" id="city" placeholder="Enter your city..." name="city" formControlName="city">
+    </div>
+    <div class="form-group">
+        <label for="interests">Enter your interests:</label>
+        <input type="text" class="form-control" id="interests" placeholder="Enter your interests..." name="interests" formControlName="interests">
+    </div>
+    <div class="form-check d-flex justify-content-center mb-5">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+        <label class="form-check-label" for="form2Example3">
+          I agree all statements in <a href="https://policies.google.com/terms?hl=en-US">Terms of service</a>
+        </label>
+    </div>
+    <button class="btn btn-primary" [disabled]="form.invalid" (click)="saveCall()">Submit</button>
+</div>
